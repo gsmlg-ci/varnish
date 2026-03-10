@@ -3,8 +3,7 @@ FROM varnish:alpine
 ARG BUILD_DATE
 
 LABEL maintainer="Jonathan Gao <gsmlg.com@gmail.com>"
-LABEL org.opencontainers.image.source="https://github.com/gsmlg-dev/Foundation"
-LABEL org.opencontainers.image.source.path="docker/varnish"
+LABEL org.opencontainers.image.source="https://github.com/gsmlg-ci/varnish"
 LABEL org.opencontainers.image.title="Varnish"
 LABEL org.opencontainers.image.description="Varnish is a web application accelerator also known as a caching HTTP reverse proxy."
 LABEL org.opencontainers.image.documentation="https://varnish-cache.org/docs/"
